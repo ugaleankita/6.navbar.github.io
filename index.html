@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+   
+   <style>
+     *{
+        margin: 0%;
+        padding:0%;
+       box-sizing: border-box;
+       font-family:serif;
+    }
+    nav{
+        height: 10vh;
+        
+        display: flex;
+        background-color:black ;
+        color: orange;
+    }
+    .left{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+
+    }
+    .center{
+        width:60%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style-type: none;
+        /* padding: 10px; */
+    }
+    li{
+        padding: 13px;
+    }
+    .center li:hover{
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        transition: all ease 2s;
+        
+
+    }
+    .right{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 30px;
+    }
+   </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="left">
+            <li>
+                ANKITA
+            </li>
+
+        </div>
+
+        <div class="center">
+            <li>HOME</li>
+            <li>MAIN</li>
+            <li>ABOUT</li>
+            <li>CONTACT US</li>
+        </div>
+
+        <div class="right">
+            <span><i class="fa fa-thumbs-up"></i></span>
+            <span><i class="fa fa-check-square"></i></span>
+            <span><i class="fa fa-play-circle"></i></span>
+            <span><i class="fa fa-file"></i></span>
+
+        </div>
+
+    </nav>
+    
+</body>
+</html>
